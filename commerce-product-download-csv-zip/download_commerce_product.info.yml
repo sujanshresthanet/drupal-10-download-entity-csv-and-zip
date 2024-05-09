@@ -1,0 +1,7 @@
+name: 'Download Drupal Commerce Products'
+type: module
+description: 'Provides the example functionality to download Drupal commerce products as csv and zip'
+core_version_requirement: ^9 || ^10
+package: 'Download Drupal Commerce Products'
+dependencies:
+  - commerce

@@ -1,0 +1,15 @@
+assessment.download_csv:
+  path: '/admin/commerce/download-csv'
+  defaults:
+    _controller: '\Drupal\download_commerce_product\Controller\ProductsDdownloadController::DownloadCsv'
+    _title: 'Download CSV'
+  requirements:
+    _permission: 'administer site configuration'
+
+assessment.download_zip:
+  path: '/admin/commerce/download-zip'
+  defaults:
+    _controller: '\Drupal\download_commerce_product\Controller\ProductsDdownloadController::DownloadZip'
+    _title: 'Download ZIP'
+  requirements:
+    _permission: 'administer site configuration'

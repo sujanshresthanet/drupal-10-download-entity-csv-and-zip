@@ -165,7 +165,7 @@ class ProductsDdownloadController extends ControllerBase {
       )->generateAbsoluteString($file->getFileUri());
     }
 
-    // for drupal 10
+    // for drupal 10 file path
     // $file_path = $file->getFileUri();
 
     // Return file path.

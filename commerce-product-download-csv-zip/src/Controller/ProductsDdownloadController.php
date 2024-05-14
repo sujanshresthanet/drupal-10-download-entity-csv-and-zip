@@ -50,6 +50,7 @@ class ProductsDdownloadController extends ControllerBase {
     // You can add any other file paths to download them in the zip.
     $filePaths = [
       $file_path,
+      // $file_path2,
     ];
 
     // Create a temporary directory to store files.
